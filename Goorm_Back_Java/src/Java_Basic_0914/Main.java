@@ -20,9 +20,13 @@ public class Main {
         Basic_6_access access = new Basic_6_access();
 //        access.main();
 
-        Basic_7_constructor con= new Basic_7_constructor(10, 20);
-        con.main();
+        Basic_7_constructor con = new Basic_7_constructor(10, 20);
+//        con.main();
+
+        Basic_8_overloading over = new Basic_8_overloading();
+        over.main();
     }
+
 
 
 }
