@@ -15,7 +15,10 @@ public class Main {
 //        operator_instanceof.main();
 
         Basic_5_array array = new Basic_5_array();
-        array.main();
+//        array.main();
+
+        Basic_6_access access = new Basic_6_access();
+        access.main();
     }
 
 
