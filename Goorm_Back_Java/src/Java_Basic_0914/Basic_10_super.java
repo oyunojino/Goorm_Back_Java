@@ -7,7 +7,7 @@ class Vegetable {
     public void Set1(String a, String b, String c) {
         sort = a; season = b; name = c;
     }
-    public void Disp() {
+    public void Disp1() {
         System.out.println("분류 : " + sort);
         System.out.println("계절 : " + season);
         System.out.println("이름 : " + name);
@@ -18,13 +18,18 @@ class Paprika extends Vegetable {
     private int price;
     private String name;
 
-    public void Set2(String a, int b, String c) {
+    public void Set3(String a, int b, String c) {
         color = a; price = b; name = c;
     }
-    public void Disp() {
+    public void Disp2() {
+        System.out.println("분류 : " + sort);
+        System.out.println("계절 : " + season);
+        System.out.println("이름 : " + super.name);
+    }
+    public void Disp3() {
         System.out.println("색상 : " + color);
         System.out.println("가격 : " + price);
-        System.out.println("이름 : " + super.name);
+        System.out.println("이름 : " + name);
     }
 }
 public class Basic_10_super {
@@ -32,8 +37,9 @@ public class Basic_10_super {
         Paprika obj = new Paprika();
 
         obj.Set1("피망류", "여름", "노란파프리카");
-        obj.Set2("빨강", 2000, "빨간파프리카");
-        obj.Disp();
-        obj.Disp();
+        obj.Set3("빨강", 2000, "빨간파프리카");
+        obj.Disp1();
+        obj.Disp2();
+        obj.Disp3();
     }
 }
