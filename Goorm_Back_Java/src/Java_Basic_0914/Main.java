@@ -12,6 +12,11 @@ public class Main {
 //        operator.main();
 
         Basic_4_operator_instanceof operator_instanceof = new Basic_4_operator_instanceof();
-        operator_instanceof.main();
+//        operator_instanceof.main();
+
+        Basic_5_array array = new Basic_5_array();
+        array.main();
     }
+
+
 }
