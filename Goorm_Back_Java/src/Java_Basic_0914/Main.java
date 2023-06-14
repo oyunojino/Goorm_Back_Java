@@ -9,6 +9,9 @@ public class Main {
 //        datatype.main();
 
         Basic_3_operator operator = new Basic_3_operator();
-        operator.main();
+//        operator.main();
+
+        Basic_4_operator_instanceof operator_instanceof = new Basic_4_operator_instanceof();
+        operator_instanceof.main();
     }
 }
