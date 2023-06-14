@@ -18,7 +18,10 @@ public class Main {
 //        array.main();
 
         Basic_6_access access = new Basic_6_access();
-        access.main();
+//        access.main();
+
+        Basic_7_constructor con= new Basic_7_constructor(10, 20);
+        con.main();
     }
 
 
