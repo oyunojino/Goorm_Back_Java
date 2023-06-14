@@ -30,6 +30,9 @@ public class Main {
 //        extendsEx.main();
 
         Basic_10_super superEx = new Basic_10_super();
-        superEx.main();
+//        superEx.main();
+
+        Basic_12_polymorphism poly = new Basic_12_polymorphism();
+        poly.main();
     }
 }
