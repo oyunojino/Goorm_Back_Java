@@ -24,9 +24,12 @@ public class Main {
 //        con.main();
 
         Basic_8_overloading over = new Basic_8_overloading();
-        over.main();
+//        over.main();
+
+        Basic_9_extends extendsEx = new Basic_9_extends();
+//        extendsEx.main();
+
+        Basic_10_super superEx = new Basic_10_super();
+        superEx.main();
     }
-
-
-
 }
