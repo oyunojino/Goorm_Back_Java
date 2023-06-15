@@ -37,8 +37,15 @@ public class Main {
 
         Basic_12_polymorphism poly = new Basic_12_polymorphism();
 //        poly.main();
-        
+
         Basic_13_abstract abstr = new Basic_13_abstract();
-        abstr.main();
+//        abstr.main();
+
+        Basic_14_final fin = new Basic_14_final();
+//        fin.main();
+
+        Basic_15_static sta = new Basic_15_static();
+        sta.main();
     }
+
 }
