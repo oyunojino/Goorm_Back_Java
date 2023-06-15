@@ -1,5 +1,8 @@
 package Java_Basic_0914;
 
+import JAVA_Goorm.G_01_array;
+import Java_Advanced_0615.A_01_thread;
+
 public class Main {
     public static void main(String[] args) {
         Basic_1_Promotion promotion = new Basic_1_Promotion();
@@ -45,7 +48,20 @@ public class Main {
 //        fin.main();
 
         Basic_15_static sta = new Basic_15_static();
-        sta.main();
+//        sta.main();
+
+
+
+        //////////////////////////////////////////////////////////////////////////
+        A_01_thread thr = new A_01_thread();
+//        thr.main();
+
+
+
+        //////////////////////////////////////////////////////////////////////////
+        G_01_array arr = new G_01_array();
+        arr.main();
+
     }
 
 }
