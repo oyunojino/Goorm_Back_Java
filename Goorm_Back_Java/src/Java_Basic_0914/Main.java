@@ -1,6 +1,7 @@
 package Java_Basic_0914;
 
 import JAVA_Goorm.G_01_array;
+import JAVA_Goorm.G_02_constructor;
 import Java_Advanced_0615.A_01_thread;
 
 public class Main {
@@ -59,9 +60,14 @@ public class Main {
 
 
         //////////////////////////////////////////////////////////////////////////
-        G_01_array arr = new G_01_array();
-        arr.main();
+        G_01_array arr1 = new G_01_array();
+//        arr1.main1();
+//        arr1.main2();
+//        arr1.main3();
+//        arr1.main4();
 
+        G_02_constructor cons = new G_02_constructor();
+        cons.main();
     }
 
 }
